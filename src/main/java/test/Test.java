@@ -5,6 +5,9 @@ public class Test {
     if (left > 5) {
       left += 1;
     }
+    if (right > 5) {
+      right += 1;
+    }
     return left + right;
   }
 }
